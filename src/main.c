@@ -30,8 +30,7 @@ int main(int argc, char *argv[])
     modbus_mapping_t *mb_mapping = NULL;
     int rc;
 
-    ilog("serial configs: serial_port = %s serial_baud = %d serial_parity = %c serial_data_bit = %d \
-            serial_stop_bit = %d\n", SERIAL_PORT, SERIAL_BAUD, SERIAL_PARITY, SERIAL_DATA_BIT, SERIAL_STOP_BIT);
+    ilog("serial configs: serial_port = %s serial_baud = %d serial_parity = %c serial_data_bit = %d serial_stop_bit = %d\n", SERIAL_PORT, SERIAL_BAUD, SERIAL_PARITY, SERIAL_DATA_BIT, SERIAL_STOP_BIT);
     ctx = modbus_new_rtu(SERIAL_PORT, SERIAL_BAUD, SERIAL_PARITY, SERIAL_DATA_BIT, SERIAL_STOP_BIT);
     if (!ctx) {
         elog("modbus new rtu error\n");
@@ -55,6 +54,8 @@ int main(int argc, char *argv[])
         uint16_t data[20];
 
         ret = modbus_read_input_registers(ctx, 1000, 20, data);
+        sleep(1);
+
         if (ret == -1) {
             elog("read input registers err\n");
             continue;
@@ -64,8 +65,6 @@ int main(int argc, char *argv[])
         for (int i = 0; i < 20; i++) {
             ilog("data[%d] = %d\n", i, data[i]);
         }
-
-        sleep(1);
     }
 
     /* For RTU, skipped by TCP (no TCP connect) */

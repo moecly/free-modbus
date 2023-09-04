@@ -1,3 +1,0 @@
-[make]
-    command = 'make clean && make'
-    args = ['-j12']

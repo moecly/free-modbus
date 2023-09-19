@@ -2,8 +2,8 @@
 #define _SERIAL_CONFIGS_H
 
 /* config serial */
-#define SERIAL_PORT "/dev/ttyS14"
-#define SERIAL_BAUD 9600
+#define SERIAL_PORT "/dev/ttyS12"
+#define SERIAL_BAUD 115200
 #define SERIAL_PARITY 'N'
 #define SERIAL_DATA_BIT 8
 #define SERIAL_STOP_BIT 1

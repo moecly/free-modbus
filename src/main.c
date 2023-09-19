@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "c-utils/utils.h"
+#include "c-utils/c-utils.h"
 #include "modbus-configs.h"
 #include "modbus-private.h"
 #include <modbus.h>

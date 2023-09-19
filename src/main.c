@@ -14,7 +14,7 @@
 
 #include <modbus.h>
 #include "modbus-configs.h"
-#include "c-utils/utils.h"
+#include "c-utils/c-utils.h"
 
 typedef enum {
     dev_addr = 0,

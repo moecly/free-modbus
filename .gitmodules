@@ -1,0 +1,3 @@
+[submodule "inc/c-utils"]
+	path = inc/c-utils
+	url = git@github.com:moecly/c-utils.git

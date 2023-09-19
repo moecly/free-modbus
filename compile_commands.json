@@ -1,0 +1,162 @@
+[
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/inc/c-utils/common/common.o",
+      "inc/c-utils/common/common.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/inc/c-utils/common/common.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/inc/c-utils/common/common.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/inc/c-utils/list/list.o",
+      "inc/c-utils/list/list.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/inc/c-utils/list/list.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/inc/c-utils/list/list.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/inc/c-utils/str_util/str_util.o",
+      "inc/c-utils/str_util/str_util.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/inc/c-utils/str_util/str_util.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/inc/c-utils/str_util/str_util.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/inc/c-utils/log_msg/log_msg.o",
+      "inc/c-utils/log_msg/log_msg.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/inc/c-utils/log_msg/log_msg.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/inc/c-utils/log_msg/log_msg.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/src/main.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/src/main.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/src/modbus.o",
+      "src/modbus.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/src/modbus.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/src/modbus.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/inc/c-utils/sys_time/sys_time.o",
+      "inc/c-utils/sys_time/sys_time.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/inc/c-utils/sys_time/sys_time.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/inc/c-utils/sys_time/sys_time.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/src/modbus-rtu.o",
+      "src/modbus-rtu.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/src/modbus-rtu.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/src/modbus-rtu.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/src/modbus-data.o",
+      "src/modbus-data.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/src/modbus-data.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/src/modbus-data.o"
+  },
+  {
+    "arguments": [
+      "/home/mo/develop/ma35d1/sdk/buildroot/MA35D1_Buildroot/output/host/bin/aarch64-nuvoton-linux-gnu-gcc",
+      "-Wall",
+      "-Wextra",
+      "-I",
+      "./inc",
+      "-c",
+      "-o",
+      "build/obj/src/modbus-tcp.o",
+      "src/modbus-tcp.c"
+    ],
+    "directory": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus",
+    "file": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/src/modbus-tcp.c",
+    "output": "/home/mo/develop/ma35d1/sdk/free-modbus/serial-master_modbus/build/obj/src/modbus-tcp.o"
+  }
+]
